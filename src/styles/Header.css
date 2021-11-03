@@ -20,6 +20,7 @@ header .conteiner-buttons button{
     padding: 10px;
     width: 250px;
     margin-left: 20px;
+    margin-bottom: 10px;
     color: #E7E7DE;
     border-radius: 6px;
     transition: all .2s ease-in-out;
