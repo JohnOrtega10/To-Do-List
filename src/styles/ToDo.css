@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eeeeee;
+    
+}
+
+.conteiner-todo{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 770px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all .2s ease-in-out;
+    background-color: #00587A;
+    color: #E7E7DE;
+    
+}
+
+.conteiner-todo:hover{
+    background-color: #008891;
+}
+
+.conteiner-todo p::first-letter{
+    text-transform: uppercase;
+}
+
+.conteiner-todo .completed{
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(34, 173, 34);
+    border: none;
+    padding: 3px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+    font-weight: 500;
+}
+
+.conteiner-todo .completed:hover{
+    background-color:rgb(27, 99, 27);
+}
+
+.conteiner-todo .reset{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(235, 13, 13);
+    border: none;
+    padding: 3px;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+    font-weight: 500;
+}
+
+.conteiner-todo .reset:hover{
+    background-color: rgb(145, 24, 24);
+}
