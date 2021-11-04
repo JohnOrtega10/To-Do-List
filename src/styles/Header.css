@@ -13,6 +13,10 @@ header {
     
 }
 
+header>div>h1{
+    cursor: default;
+}
+
 header .conteiner-buttons button{
     font-family: 'Open Sans', sans-serif;
     height: 50px;
@@ -26,7 +30,9 @@ header .conteiner-buttons button{
     transition: all .2s ease-in-out;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
 }
+
 
 header .conteiner-buttons .component{
     background-color: #0F3057;
